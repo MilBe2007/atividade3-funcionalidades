@@ -1,3 +1,5 @@
-function saudacao(nome) {
-  return `Olá, ${nome}`;
+function despidida(nome) {
+  return `Tchau, ${nome}`;
 }
+
+module.exports = despidida;
