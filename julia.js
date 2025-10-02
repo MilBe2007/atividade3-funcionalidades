@@ -1,12 +1,8 @@
-// soma.js
+// divisibilidade.js
 
-function soma(a, b) {
-    if (a < 0 || b < 0) {
-        return "Erro: não permite números negativos";
+function ehDivisivel(a, b) {
+    if (b === 0) {
+        return "Erro: divisão por zero";
     }
-    return a + b;
-}
-
-function subtrai(a, b) {
-    return a - b;
+    return a % b === 0;
 }
