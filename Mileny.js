@@ -1,3 +1,3 @@
-ty9o
-
-oiii
+function saudacao(nome) {
+  return `Olá, ${nome}`;
+}
